@@ -25,16 +25,81 @@
 
     <main>
         <section class="main__pages"> 
-            <span>Главная<div class="main__pages__link-icon"></div></span>
-            <span>Блог</span> 
+            <a href="#">Главная<div class="main__pages__link-icon"></div></a>
+            <a href="#">Блог</a> 
         </section>
         <h1>Блог</h1>
-        <nav></nav>
+        <nav class="main__article-navigation">
+            <button><div class="main__article-navigation__icon-smail"></div>Все</button>
+            <button>Самооценка и самопринятие</button>
+            <button class="main__article-navigation__active"><div class="main__article-navigation__icon-unicorn"></div>Self</button>
+            <button>Чувства и эмоции</button>
+            <button>Тревога</button>
+            <button>Упражнения</button>
+            <button>Психология питания</button>
+            <button>Насилие</button>
+            <button>Личное здоровье</button>
+        </nav>
+
+
         <section></section>
         <button></button>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="footer__main-block">
+
+            <div class="footer__menu">
+                <div>
+                    <a href="#">О нас</a>
+                    <a href="#">Тарифы</a>
+                    <a href="#">Для бизнеса</a>
+                    <a href="#">Психологам</a>
+                    <a href="#">FAQ</a>
+                </div>
+                <div>
+                    <a href="#">Блог</a>
+                    <a href="#">Вебинары</a>
+                    <a href="#">Подскаст</a>
+                    <a href="#">Сертификат</a>
+                    <a href="#">Контакты</a>
+                </div>
+            </div>
+
+            <div class="footer__subscription">
+                <span class="footer__subscription-title">Одно письмо в неделю со свежими новостями и акциями</span>
+                <div> 
+                    <input type="text" placeholder="Ваш e-mail">
+                    <button type="button" class="footer__subscription-button"></button>
+                </div>
+    
+                <span class="footer__subscription-conditions">Подписываясь, я соглашаюсь на обработку персональных данных в соответствии с ФЗ РФ № 152-ФЗ «О персональных данных», а также с Политикой конфиденциальности</span>
+            </div>
+
+            <div class="footer__social-network-block">
+                <div></div>
+                <div class="footer__social-network">
+                    <div class="footer__social-network-vk"></div>
+                    <div class="footer__social-network-t"></div>
+                    <div class="footer__social-network-s"></div>
+                    <div class="footer__social-network-ya"></div>
+                </div>
+            </div>
+
+
+
+        </div>
+        
+
+
+
+        <div class="footer__copyright">
+            <span>©Youtalk, 2018 – 2022</span>
+            <a href="#">Юридические документы</a>
+            <a href="#">Способы оплаты</a>
+        </div>
+
+    </footer>
 
 </body>
 </html>
