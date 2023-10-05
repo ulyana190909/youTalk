@@ -92,6 +92,34 @@ button {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     width: 100%;
     height: 302px;
@@ -387,3 +415,80 @@ background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='20' height
     background: #F9FDFD;
 }
 
+.main__posts {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    margin: 23px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.main__posts-block {
+    max-width: 588px;
+    border-radius: 16px;
+    background-color: #fff;
+    border: 1px solid #DEDEDE;    
+}
+
+.main__posts div:first-child {
+    margin-right: 24px;
+}
+
+.main__posts h3 {
+    color: #333;
+    align-self: stretch;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+}
+
+.main__post-text-block {
+    padding: 16px;
+    height: 240px;
+    position: relative;
+}
+
+p {
+    margin: 0;
+}
+
+.main__post-author {
+    color: #494949;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    margin: 3px 0 8px;
+}
+
+.main__post-text {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.main__post-data {
+    color: #868686;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    position: absolute;
+    bottom: 16px;
+}
+
+#main-post-photo-1 {
+    background: url('./img/1.png') center no-repeat;
+}
+
+.main__post-photo {
+    width: 100%;
+    height: 259px;
+    border-radius: 16px 16px 0 0;
+}
+
+#main-post-photo-2 {
+    background: url('./img/2.png') center no-repeat;
+}
