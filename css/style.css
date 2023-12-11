@@ -443,7 +443,7 @@ p {
 }
 
 #main-post-photo-1 {
-    background: url('./img/1.png') center no-repeat;
+    background: url('../img/1.png') center no-repeat;
 }
 
 .main__post-photo {
@@ -454,31 +454,31 @@ p {
 }
 
 #main-post-photo-2 {
-    background: url('./img/2.png') center no-repeat;
+    background: url('../img/2.png') center no-repeat;
 }
 
 #main-post-photo-3 {
-    background: url('./img/3.png') center no-repeat;
+    background: url('../img/3.png') center no-repeat;
 }
 
 #main-post-photo-4 {
-    background: url('./img/4.png') center no-repeat;
+    background: url('../img/4.png') center no-repeat;
 }
 
 #main-post-photo-5 {
-    background: url('./img/5.png') center no-repeat;
+    background: url('../img/5.png') center no-repeat;
 }
 
 #main-post-photo-6 {
-    background: url('./img/6.png') center no-repeat;
+    background: url('../img/6.png') center no-repeat;
 }
 
 #main-post-photo-7 {
-    background: url('./img/7.png') center no-repeat;
+    background: url('../img/7.png') center no-repeat;
 }
 
 #main-post-photo-8 {
-    background: url('./img/8.png') center no-repeat;
+    background: url('../img/8.png') center no-repeat;
 }
 
 .main__posts-all {

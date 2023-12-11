@@ -1,0 +1,120 @@
+axt:active, a:hover, a {
+  text-decoration: none;
+  color: #333;
+}
+
+span, p, h1, h3, h5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    color: #333;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__content-article {
+    width: 690px;
+    height: auto;
+}
+
+.main__content-article h1 {
+    margin: 54px 0 16px;
+}
+
+.main__content-article__author span {
+    color: #494949;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 8px;
+}
+
+.main__content-article__author {
+    margin-bottom: 24px;
+}
+
+.main__content-article__img {
+    width: 100%;
+    height: 331px;
+    background-image: url(../img/9.png);
+    margin-bottom: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__content-article h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px; 
+    margin-bottom: 16px;
+}
+
+.main__content-article p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.main__content-article__quote {
+    display: flex;
+    width: 100%;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 16px;
+    background: #F3F7FE;
+    height: 162px;
+    margin: 40px 0 24px;
+    box-sizing: border-box;
+}
+
+.main__content-article__quote p {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.main__content-article__quote  span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.main__content-article__content h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-bottom: 16px;
+}
+
+.main__content-article__content a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    text-decoration-line: underline;
+}
+
+.main__content-article__content li {
+    color: #03B2A5;
+}
+
+.main__content-article__list li:first-child {
+    margin-bottom: 16px;
+}
+
+.main__content-article__list li:last-child {
+    margin-bottom: 24px;
+}
+
+.main__content-article__list li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
